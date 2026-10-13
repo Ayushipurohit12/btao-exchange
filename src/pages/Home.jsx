@@ -4,6 +4,7 @@ import { Trophy, Tv } from "lucide-react";
 import { useIsDesktop } from "../context.jsx";
 import { MATCHES, OPEN_BETS } from "../data.js";
 import casinoGameImage from "../asstes/casino-game.svg";
+import marketBadgeIcon from "../asstes/Group (1).svg";
 import Banner from "../components/Banner.jsx";
 import Sidebar from "../components/Sidebar.jsx";
 import CasinoGrid from "../components/CasinoGrid.jsx";
@@ -42,7 +43,7 @@ function Badges() {
   return (
     <span className="badges">
       <b className="badge badge--tv">
-        <Tv size={10} />
+        <img src={marketBadgeIcon} alt="" />
       </b>
       <b className="badge badge--f">F</b>
       <b className="badge badge--bm">BM</b>

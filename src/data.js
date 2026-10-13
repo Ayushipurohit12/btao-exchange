@@ -200,7 +200,7 @@ export const PROFILE_LINKS = [
     desktopOnly: true,
   },
   { label: "Profit & Loss", icon: "BarChart3", to: "/profit-loss" },
-  { label: "Bet History", icon: "Clock", to: "/current-bets" },
+  { label: "Bet History", icon: "Clock", to: "/bet-history" },
   { label: "Deposit History", icon: "Download", to: "/deposit-history" },
   { label: "Withdraw History", icon: "Upload", to: "/withdraw-history" },
   { label: "Change Password", icon: "Lock", action: "password" },
