@@ -8,6 +8,8 @@ The layout switches at **1024px** (`useIsDesktop` in `src/context.jsx`).
     npm run dev      # http://localhost:5173
     npm run build
 
+`node_modules/` and `dist/` are generated locally and are not tracked in Git.
+
 ## Screens / routes
 | Route | Screen |
 |---|---|
